@@ -1,0 +1,19 @@
+.button {
+  width: 315px;
+  height: 56px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 6px 10px;
+  background: linear-gradient(267.72deg, #d8605b -0.89%, #f4c27f 112.29%);
+  font-weight: 700;
+  color: white;
+}
+
+.button-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: auto;
+}

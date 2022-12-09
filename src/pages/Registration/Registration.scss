@@ -1,0 +1,39 @@
+.resistation {
+  .content-resistation {
+    text-align: center;
+    .resistation-image {
+      margin: 40px 44px auto 44px;
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: calc(28 / 24);
+      display: inline-block;
+      margin: 7px 74px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: calc(23 / 12);
+      margin-bottom: 17px;
+    }
+  }
+  .form-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+  }
+
+  .question {
+    margin: 21px auto auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: calc(16 / 14);
+    font-size: 14px;
+    a {
+      color: #d8605b;
+      font-weight: 600;
+    }
+  }
+}
