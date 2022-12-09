@@ -34,7 +34,6 @@ const Registration = () => {
   const onSubmit = async (data) => {
     const { confirmPassword, ...restData } = data;
     await signUp(restData);
-    console.log(restData);
     const dataLogin = await signUp(restData);
     localStorage.setItem("avatar", dataLogin.avatar);
     localStorage.setItem("name", dataLogin.name);
