@@ -1,12 +1,12 @@
+import * as yup from "yup";
 import React from "react";
-import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
-import images from "../../assets/images";
 import Button from "../../components/common/Button/Button";
 import TextFeild from "../../components/common/TextField/TextFeild";
-import "./Login.scss";
-import * as yup from "yup";
+import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
+import images from "../../assets/images";
+import "./Login.scss";
 
 const schema = yup.object({
   email: yup

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Dashboard.scss";
-import images from "../../assets/images/index";
 import { useNavigate } from "react-router-dom";
 import { getTasks } from "../../axios/Tasks";
+import images from "../../assets/images/index";
+import "./Dashboard.scss";
 
 const Dashboard = () => {
   const navigate = useNavigate();

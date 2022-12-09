@@ -1,7 +1,7 @@
 import React from "react";
+import ButtonHome from "../../components/common/Button/ButtonHome";
 import images from "../../assets/images";
 import "./Home.scss";
-import ButtonHome from "../../components/common/Button/ButtonHome";
 
 const Home = () => {
   return (

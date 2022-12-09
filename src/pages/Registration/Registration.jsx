@@ -1,14 +1,13 @@
 import React from "react";
 import * as yup from "yup";
-import { useNavigate } from "react-router-dom";
-import images from "../../assets/images";
 import Button from "../../components/common/Button/Button";
 import TextFeild from "../../components/common/TextField/TextFeild";
-import "./Registration.scss";
-
+import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { signUp } from "../../axios/User";
+import images from "../../assets/images";
+import "./Registration.scss";
 
 const schema = yup.object({
   name: yup.string().required("Vui lòng nhập tên"),

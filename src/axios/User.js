@@ -11,13 +11,3 @@ export const signUp = async (newUser) => {
     alert.error(error);
   }
 };
-// GET USERS
-
-export const getUsers = async () => {
-  try {
-    const response = await axios.get(baseRegURL);
-    return response.data;
-  } catch (error) {
-    alert.error(error);
-  }
-};
